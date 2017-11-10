@@ -1,0 +1,1 @@
+change value of I_am_admin cookie by the md5crypt of "true"

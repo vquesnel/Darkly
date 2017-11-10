@@ -1,0 +1,5 @@
+page : http://192.168.83.128/index.php?page=survey
+
+-Inspecter l'élément d'un <select>
+-Modifier la value d'une de ses options (mettre autre chose qu'un INT)
+-Sélectionner cette option
