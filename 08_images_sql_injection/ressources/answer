@@ -10,3 +10,5 @@ page : http://192.168.120.128/index.php?page=member
 
 3 - get images from DB
 0 OR 1 = 2 UNION SELECT title, comment FROM Member_images.list_images
+==> #title: Hack me ?
+    #comment : If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46

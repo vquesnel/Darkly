@@ -1,0 +1,6 @@
+add extension Live HTTP headers to show http request of the site
+add extension Referer Control to change referrer of request
+add extension User-Agent Switcher for Google Chrome to change user-agent
+
+Modify referer to "https://www.nsa.gov/" and user_agent to "ft_bornToSec"
+(data given when inspected the html)

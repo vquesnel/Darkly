@@ -25,5 +25,5 @@ function getToken($link) {
     }
   }
 }
-getToken("http://192.168.1.57/.hidden/");
+getToken("http://10.12.1.117/.hidden/");
 ?>
